@@ -4,20 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85e43033-5fa4-470e-9da7-f0baa3fab1b4" name="Changes" comment="HomeWork4">
+    <list default="true" id="85e43033-5fa4-470e-9da7-f0baa3fab1b4" name="Changes" comment="HomeWork5">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW3/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HW5/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HW5/AccountAvailTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HW5/AuthorizationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HW5/ComparisonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HW5/FavouritesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HW5/SearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HW5/ShoppingCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW3/HW3/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW3/HW6/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW3/HW6/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HW6/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HW6/MainPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW3/HW4/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW3/Autorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW3/HW3/Autorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW3/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW3/HW3/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HW5/AccountAvailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HW5/AccountAvailTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HW4/TriangleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW2" />
+        <entry key="$PROJECT_DIR$" value="HW4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,11 +93,11 @@
   </component>
   <component name="RunManager" selected="JUnit.ComparisonTest.comparison">
     <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW3.Search" />
+      <option name="MAIN_CLASS_NAME" value="HW3.Search" />
       <module name="WebUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW3.*" />
+          <option name="PATTERN" value="HW3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685822662413</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HomeWork5">
+      <created>1686346890586</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686346890586</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +226,8 @@
     <MESSAGE value="HomeWork2" />
     <MESSAGE value="HomeWork3" />
     <MESSAGE value="HomeWork4" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork4" />
+    <MESSAGE value="HomeWork5" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,22 +268,22 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/HW3/Search.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/HW3/HW3/Search.java</url>
           <line>36</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/HW3/Search.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/HW3/HW3/Search.java</url>
           <line>37</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/HW3/Search.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/HW3/HW3/Search.java</url>
           <line>38</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/HW3/Search.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/HW3/HW3/Search.java</url>
           <line>39</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
